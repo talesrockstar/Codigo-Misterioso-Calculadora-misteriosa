@@ -1,4 +1,4 @@
-#Mistério
+# Mistério
 
 #### Um cientista está diante de um desafio crucial: ele precisa realizar um cálculo aritmético básico usando uma calculadora científica, mas há um problema. Para que a operação seja possível, ele se depara com um código complexo e incompleto que precisa ser resolvido antes que o cálculo possa ser realizado. O código, aparentemente simples à primeira vista, está faltando alguns detalhes essenciais que são necessários para ativar a função de cálculo da calculadora.
 

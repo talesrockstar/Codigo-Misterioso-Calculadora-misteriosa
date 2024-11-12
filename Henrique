@@ -15,8 +15,7 @@ void menu() {
     printf("7. Seno (sin)\n");
     printf("8. Cosseno (cos)\n");
     printf("9. Tangente (tan)\n");
-    printf("10. Cofre\n");
-    printf("11. Sair\n");
+    printf("10. Sair\n");
 }
 
 int main() {
@@ -32,9 +31,8 @@ int main() {
         
         // Verificando a operação escolhida
         
-         if (escolha == 42) {  // Easter Egg secreto
+         if (escolha == 1653) {  // Easter Egg secreto
             printf("Você descobriu o easter egg!\n");
-            printf("Ácido clorídrico, formula!\n");
             continue;  // Volta para o menu
         }
         
@@ -127,20 +125,8 @@ int main() {
                 printf("Resultado (Tangente): %.2lf\n", resultado);
                 break;
                 
-            case 10:
-            	printf("Digite a senha do cofre: ");
-            	scanf("%d", &senha);
-            	if(senha == 1653)
-            	{
-            		printf("Parábens, Você venceu!\n");
-				}
-                else
-                {
-                	printf("Senha incorreta, tente novamente!\n\n");
-				}
-                break;
                 
-            case 11:  // Sair
+            case 10:  // Sair
                 printf("Saindo...\n");
                 return 0;
                 break;

@@ -4,7 +4,7 @@
 
 ### O cientista tenta entender a lógica por trás da estrutura do código, mas logo percebe que a solução não será tão óbvia. Alguns comandos estão incorretos, enquanto outros estão incompletos, e ele precisa corrigir as falhas para que a calculadora execute a operação corretamente. Será que ele conseguirá completar a programação da calculadora e realizar o cálculo necessário? Ou talvez alguém mais, com mais conhecimento em algoritmos e linguagens de programação, conseguirá desvendar esse enigma e restaurar a funcionalidade do dispositivo?
 
-# Dicas para concertar essa calculadora:
+# Dicas para consertar essa calculadora:
 - Pista 1: Falta algo que normalmente aparece no final de uma linha de código, especialmente em funções de impressão.
 - Pista 2: O tipo de dado de uma variável e o especificador de formato usado para lê-la podem não coincidir. Algo importante pode ter sido trocado.
 - Pista 3: Em C, usamos um símbolo específico para realizar operações aritméticas. alguém pode ter se confudido.

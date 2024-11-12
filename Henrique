@@ -1,5 +1,5 @@
-#include <stdio.h>
-#include <math.h>
+#include <stdio.h> 
+#include <math.h> 
 #include <locale.h>
 
 // Função para realizar as operações matemáticas
@@ -15,12 +15,13 @@ void menu() {
     printf("7. Seno (sin)\n");
     printf("8. Cosseno (cos)\n");
     printf("9. Tangente (tan)\n");
-    printf("10. Sair\n");
+    printf("10. Cofre\n");
+    printf("11. Sair\n");
 }
 
 int main() {
 	setlocale(LC_ALL, "Portuguese");
-    int escolha;
+    int escolha, senha;
     double num1, num2, resultado;
     
     // Exibindo o menu de opções
@@ -30,6 +31,15 @@ int main() {
         scanf("%d", &escolha);
         
         // Verificando a operação escolhida
+        
+         if (escolha == 42) {  // Easter Egg secreto
+            printf("Você descobriu o easter egg!\n");
+            printf("Ácido clorídrico, formula!\n");
+            continue;  // Volta para o menu
+        }
+        
+        
+        
         switch(escolha) {
         	
             case 1:  // Adição
@@ -117,8 +127,20 @@ int main() {
                 printf("Resultado (Tangente): %.2lf\n", resultado);
                 break;
                 
+            case 10:
+            	printf("Digite a senha do cofre: ");
+            	scanf("%d", &senha);
+            	if(senha == 1653)
+            	{
+            		printf("Parábens, Você venceu!\n");
+				}
+                else
+                {
+                	printf("Senha incorreta, tente novamente!\n\n");
+				}
+                break;
                 
-            case 10:  // Sair
+            case 11:  // Sair
                 printf("Saindo...\n");
                 return 0;
                 break;
